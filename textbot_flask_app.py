@@ -1,5 +1,8 @@
 # a simple flask bot that can understand ESS messages from the Syniverse Developer Community and
 # check whether it is from the SCG, and sends an SMS reply if the incoming SMS contains a magic word
+
+# uses python 2.7
+# needs the Flask and Requests packages to be installed
  
 from flask import Flask
 from flask import request, json
